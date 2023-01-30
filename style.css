@@ -1,0 +1,40 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+    "sidebar header"
+    "sidebar main-content";
+}
+
+.sidebar,
+.header {
+    z-index: 1;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #008A6F;
+}
+
+.header {
+    grid-area: header;
+    box-shadow: 0 2px 12px -4px #797394;
+}
+
+.main-content {
+    grid-area: main-content;
+    background-color: #F4ECFF;
+}
+
+
