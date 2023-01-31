@@ -43,6 +43,17 @@ body {
 
 .sidebar-brand {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar-brandLogo {
+    background-image: url("images/placeholder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.2em;
+    min-width: 1.2em;
 }
 
 .sidebar-navList {
@@ -58,6 +69,17 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar-navIcon {
+    background-image: url("images/placeholder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0.9em;
+    min-width: 0.9em;
 }
 
 .main-content {
