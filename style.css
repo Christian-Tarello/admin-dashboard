@@ -28,6 +28,63 @@ body {
 .header {
     grid-area: header;
     box-shadow: 0 2px 12px -4px #797394;
+    padding: 1.5rem 2rem;
+    display: grid;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-searchbar label{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-searchbar input{
+    width: 500px;
+    background-color: #CCCFCC;
+    border-width: 0px;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+}
+
+.header-userInfo {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-greeting {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.header-greeting > .header-icon {
+    grid-row-end: span 2;
+}
+
+.header-createContent {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-contentButton {
+    border: 0px;
+    padding: 0.5rem 1.5rem;
+    background-color: #008A6F;
+    color: white;
+    border-radius: 1rem;
+    font-weight: 700;
 }
 
 .sidebar {
