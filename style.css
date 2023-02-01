@@ -30,14 +30,16 @@ body {
     box-shadow: 0 2px 12px -4px #797394;
     padding: 1.5rem 2rem;
     display: grid;
+    gap: 2rem;
 }
 
 .header-icon {
     background-image: url("images/placeholder.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 2em;
-    min-width: 2em;
+    height: 2rem;
+    min-width: 2rem;
+    border-width: 0px;
 }
 
 .header-top {
@@ -62,6 +64,7 @@ body {
 
 .header-userInfo {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -75,6 +78,8 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    gap: 0.5rem 1rem;
+    align-items: center;
 }
 
 .header-greeting > .header-icon {
