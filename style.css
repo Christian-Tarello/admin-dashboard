@@ -27,7 +27,7 @@ body {
 
 .header {
     grid-area: header;
-    box-shadow: 0 2px 12px -4px #797394;
+    box-shadow: 0 2px 12px -4px #777;
     padding: 1rem 2.5rem;
     display: grid;
     gap: 1rem;
@@ -155,7 +155,7 @@ body {
 
 .main-content {
     grid-area: main-content;
-    background-color: #F4ECFF;
+    background-color: #EEEEEE;
 }
 
 
