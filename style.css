@@ -122,8 +122,8 @@ body {
     background-image: url("images/placeholder.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 1.2em;
-    min-width: 1.2em;
+    height: 1.5em;
+    min-width: 1.5em;
 }
 
 .sidebar-navList {
@@ -148,8 +148,8 @@ body {
     background-image: url("images/placeholder.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 0.9em;
-    min-width: 0.9em;
+    height: 1em;
+    min-width: 1em;
 }
 
 .main-content {
