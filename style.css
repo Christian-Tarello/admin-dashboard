@@ -28,17 +28,17 @@ body {
 .header {
     grid-area: header;
     box-shadow: 0 2px 12px -4px #797394;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2.5rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .header-icon {
     background-image: url("images/placeholder.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 2rem;
-    min-width: 2rem;
+    height: 1.75rem;
+    min-width: 1.75rem;
     border-width: 0px;
 }
 
@@ -50,14 +50,15 @@ body {
 
 .header-searchbar label{
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 .header-searchbar input{
     width: 500px;
     background-color: #CCCFCC;
     border-width: 0px;
-    line-height: 1.5rem;
+    height: 1.5rem;
     border-radius: 1rem;
     padding: 0 0.5rem;
 }
