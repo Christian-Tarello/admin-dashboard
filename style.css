@@ -32,6 +32,14 @@ body {
     display: grid;
 }
 
+.header-icon {
+    background-image: url("images/placeholder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2em;
+    min-width: 2em;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
