@@ -164,6 +164,7 @@ body {
 .projectGallery-list{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     padding: 0;
     margin: 0;
 }
