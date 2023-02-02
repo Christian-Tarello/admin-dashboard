@@ -176,15 +176,18 @@ body {
     margin: 0;
 }
 
-.projectCard >.projectCard-linkWrapper {
-    display: grid;
+.projectCard {
     background-color: white;
     border-left: 6px solid rebeccapurple;
     padding: 1.5rem 1rem;
     box-shadow: 2px 2px 6px -4px #777;
     border-radius: 6px;
+}
+
+.projectCard >.projectCard-linkWrapper {
+    display: grid;
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 .projectCard-actions {
