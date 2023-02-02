@@ -252,8 +252,25 @@ body {
 .trendingCard > .trendingCard-linkWrapper {
     display: grid;
     grid-template-columns: auto auto;
+    text-decoration: none;
+    color: inherit;
 }
 
 .trendingCard-userPic {
+    display: block;
+    background-image: url("images/placeholder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2rem;
+    min-width: 2rem;
     grid-row-end: span 2;
+}
+
+.trendingCard-userHandle,
+.trendingCard-projectName {
+    font-size: 0.9rem;
+}
+
+.trendingCard-projectName {
+    color: #666;
 }
