@@ -174,8 +174,8 @@ body {
     grid-area: main-content;
     background-color: #EEE;
     display: grid;
-    grid-template-columns: 1fr 200px;
-    padding: 2rem 2rem 2rem 1rem;
+    grid-template-columns: 1fr 225px;
+    padding: 1.5rem 2rem 2rem 1rem;
     gap: 1rem;
 }
 
