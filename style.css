@@ -248,3 +248,12 @@ body {
     display: grid;
     gap: 1rem;
 }
+
+.trendingCard > .trendingCard-linkWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.trendingCard-userPic {
+    grid-row-end: span 2;
+}
