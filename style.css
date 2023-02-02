@@ -17,7 +17,7 @@ body {
     grid-template-rows: 1fr 4fr;
     grid-template-areas:
     "sidebar header"
-    "sidebar mainbar";
+    "sidebar main-content";
 }
 
 .header,
@@ -153,8 +153,8 @@ body {
     min-width: 1em;
 }
 
-.mainbar {
-    grid-area: mainbar;
+.main-content {
+    grid-area: main-content;
     background-color: #EEEEEE;
 }
 
