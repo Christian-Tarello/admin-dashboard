@@ -206,3 +206,16 @@ body {
     display: grid;
     gap: 1px;
 }
+
+.trending-container {
+    background-color: white;
+    box-shadow: 2px 2px 6px -4px #777;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.trending-list {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+}
