@@ -251,9 +251,10 @@ body {
 
 .trendingCard > .trendingCard-linkWrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 1fr;
     text-decoration: none;
     color: inherit;
+    column-gap: 0.5rem;
 }
 
 .trendingCard-userPic {
