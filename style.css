@@ -156,4 +156,7 @@ body {
 .main-content {
     grid-area: main-content;
     background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 2rem 2rem 3rem 1rem;
 }
