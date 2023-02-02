@@ -155,7 +155,7 @@ body {
 
 .main-content {
     grid-area: main-content;
-    background-color: #EEEEEE;
+    background-color: #EEE;
     display: grid;
     grid-template-columns: 1fr 200px;
     padding: 2rem 2rem 3rem 1rem;
@@ -178,6 +178,7 @@ body {
 
 .projectCard >.projectCard-linkWrapper {
     display: grid;
+    background-color: white;
     border-left: 6px solid rebeccapurple;
     padding: 1.5rem 1rem;
     box-shadow: 2px 2px 6px -4px #777;
@@ -193,6 +194,7 @@ body {
 }
 
 .announcements-container {
+    background-color: white;
     box-shadow: 2px 2px 6px -4px #777;
     padding: 1.5rem;
     border-radius: 6px;
