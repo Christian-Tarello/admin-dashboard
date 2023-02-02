@@ -164,4 +164,12 @@ body {
 .projectGallery-list{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.projectGallery-list>.projectGallery-card {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
