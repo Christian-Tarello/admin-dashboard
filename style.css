@@ -201,6 +201,15 @@ body {
     gap: 1rem;
 }
 
+.projectCard-actionButton {
+    background-image: url("images/placeholder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2rem;
+    min-width: 2rem;
+    border-width: 0px;
+}
+
 .rightSidebar {
     display: flex;
     flex-direction: column;
