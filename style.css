@@ -173,3 +173,14 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.projectCard >.projectCard-linkWrapper {
+    display: grid;
+    border-left: 2px solid rebeccapurple;
+}
+
+.projectCard-actions {
+    justify-self: end;
+    display: flex;
+    gap: 1rem;
+}
