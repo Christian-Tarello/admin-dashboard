@@ -167,6 +167,10 @@ body {
     gap: 1rem;
 }
 
+.projectGallery-title {
+    font-weight: 700;
+}
+
 .projectGallery-list{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -231,6 +235,10 @@ body {
     gap: 1rem;
 }
 
+.announcements-title {
+    font-weight: 700;
+}
+
 .announcements-container {
     background-color: white;
     box-shadow: 2px 2px 6px -4px #777;
@@ -272,6 +280,10 @@ body {
 .trending {
     display: grid;
     gap: 1rem;
+}
+
+.trending-title {
+    font-weight: 700;
 }
 
 .trending-container {
