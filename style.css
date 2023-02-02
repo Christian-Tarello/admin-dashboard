@@ -191,8 +191,18 @@ body {
 
 .projectCard >.projectCard-linkWrapper {
     display: grid;
+    gap: 0.4rem;
     text-decoration: none;
     color: inherit;
+}
+
+.projectCard-title {
+    font-weight: 700;
+}
+
+.projectCard-description {
+    font-size: 0.9rem;
+    color: #666;
 }
 
 .projectCard-actions {
