@@ -213,6 +213,7 @@ body {
 
 .projectCard >.projectCard-linkWrapper {
     display: grid;
+    grid-template-rows: auto auto 1fr;
     gap: 0.4rem;
     text-decoration: none;
     color: inherit;
