@@ -382,10 +382,6 @@ body {
 }
 
 .trendingCard-userPic {
-    display: block;
-    background-image: url("images/placeholder.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 2rem;
     min-width: 2rem;
     grid-row-end: span 2;
