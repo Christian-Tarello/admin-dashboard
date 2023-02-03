@@ -160,6 +160,11 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar-navList a:hover {
+    transform: translateX(0.5rem);
 }
 
 .sidebar-navIcon {
