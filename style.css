@@ -75,6 +75,11 @@ body {
     font-weight: 700;
 }
 
+.header-username:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
 .header-bottom {
     display: flex;
     justify-content: space-between;
