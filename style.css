@@ -169,9 +169,6 @@ body {
 }
 
 .sidebar-brandLogo {
-    background-image: url("images/placeholder.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 1.5em;
     min-width: 1.5em;
 }
@@ -200,9 +197,6 @@ body {
 }
 
 .sidebar-navIcon {
-    background-image: url("images/placeholder.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 1em;
     min-width: 1em;
 }
