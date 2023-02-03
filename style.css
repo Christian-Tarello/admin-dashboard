@@ -62,6 +62,10 @@ body {
     border-radius: 1rem;
     padding: 0 0.5rem;
 }
+.header-searchbar input:hover,
+.header-searchbar input:focus {
+    background-color: #DDDFDD;    
+}
 
 .header-userInfo {
     display: flex;
