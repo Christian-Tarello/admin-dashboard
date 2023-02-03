@@ -39,16 +39,22 @@ body {
 }
 
 .header-icon {
-    background-image: url("images/placeholder.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 1.75rem;
     min-width: 1.75rem;
-    border-width: 0px;
 }
 
 .header-icon--round {
     border-radius: 50%;
+}
+
+.header-icon--small {
+    height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.header-buttonWrapper {
+    border-width: 0px;
+    background-color: transparent;
 }
 
 .header-top {
