@@ -13,7 +13,7 @@ body {
 .container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 280px 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
     "sidebar header"
@@ -174,7 +174,7 @@ body {
     grid-area: main-content;
     background-color: #EEE;
     display: grid;
-    grid-template-columns: 1fr 225px;
+    grid-template-columns: 1fr 240px;
     padding: 1.5rem 2rem 2rem 1rem;
     gap: 1rem;
 }
