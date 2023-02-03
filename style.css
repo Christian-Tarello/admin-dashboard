@@ -277,12 +277,13 @@ body {
 }
 
 .projectCard-actionButton {
-    background-image: url("images/placeholder.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.projectCard-icon {
     height: 2rem;
     min-width: 2rem;
-    border-width: 0px;
 }
 
 .rightSidebar {
