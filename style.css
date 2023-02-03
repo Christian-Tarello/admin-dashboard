@@ -119,12 +119,20 @@ body {
 }
 
 .header-contentButton {
-    border: 0px;
+    border: 1px solid #008A6F;
     padding: 0.5rem 1.5rem;
     background-color: #008A6F;
     color: white;
     border-radius: 1rem;
     font-weight: 700;
+    
+}
+
+.header-contentButton:hover,
+.header-contentButton:focus  {
+    outline: transparent;
+    background-color: transparent;
+    color: #008A6F;
 }
 
 .sidebar {
