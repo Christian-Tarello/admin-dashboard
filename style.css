@@ -218,11 +218,16 @@ body {
     gap: 0.4rem;
 }
 
-.projectCard >.projectCard-linkWrapper {
+.projectCard-linkWrapper {
     display: grid;
     gap: 0.4rem;
     text-decoration: none;
     color: inherit;
+}
+
+.projectCard-linkWrapper:hover .projectCard-title{
+    color: rebeccapurple;
+    text-decoration: underline;
 }
 
 .projectCard-title {
@@ -285,11 +290,16 @@ body {
     background-color: white;
 }
 
-.announcementCard > .announcementCard-linkWrapper {
+.announcementCard-linkWrapper {
     text-decoration: 0;
     color: inherit;
     display: grid;
     gap: 0.2rem;
+}
+
+.announcementCard-linkWrapper:hover .announcementCard-title {
+    color: rebeccapurple;
+    text-decoration: underline;
 }
 
 .announcementCard-title {
@@ -326,12 +336,17 @@ body {
     gap: 1rem;
 }
 
-.trendingCard > .trendingCard-linkWrapper {
+.trendingCard-linkWrapper {
     display: grid;
     grid-template-columns: auto 1fr;
     text-decoration: none;
     color: inherit;
     column-gap: 0.5rem;
+}
+
+.trendingCard-linkWrapper:hover .trendingCard-projectName {
+    color: rebeccapurple;
+    text-decoration: underline;
 }
 
 .trendingCard-userPic {
