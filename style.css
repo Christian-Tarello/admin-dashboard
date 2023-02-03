@@ -383,6 +383,7 @@ body {
     height: 2rem;
     min-width: 2rem;
     grid-row-end: span 2;
+    border-radius: 50%;
 }
 
 .trendingCard-userHandle,
