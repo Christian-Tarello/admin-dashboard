@@ -42,6 +42,10 @@ body {
     border-width: 0px;
 }
 
+.header-icon--round {
+    border-radius: 50%;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
