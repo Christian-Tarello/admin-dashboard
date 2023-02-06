@@ -48,7 +48,7 @@ body {
     box-shadow: 0 2px 12px -4px #777;
     padding: 1rem 3rem;
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .header-icon {
@@ -226,7 +226,7 @@ body {
 .projectGallery {
     display: grid;
     grid-template-rows: auto 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
     height: 100%;
 }
 
@@ -239,7 +239,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -260,12 +260,12 @@ body {
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr;
-    gap: 0.4rem;
+    gap: 0.2rem;
 }
 
 .projectCard-linkWrapper {
     display: grid;
-    gap: 0.4rem;
+    gap: 0.2rem;
     text-decoration: none;
     color: inherit;
 }
@@ -303,12 +303,12 @@ body {
 .rightSidebar {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .announcements {
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .announcements-title {
@@ -361,7 +361,7 @@ body {
 
 .trending {
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .trending-title {
@@ -406,7 +406,7 @@ body {
 
 .trendingCard-userHandle,
 .trendingCard-projectName {
-    font-size: var(--fs-small);
+    font-size: var(--fs-smaller);
 }
 
 .trendingCard-projectName {
