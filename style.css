@@ -4,6 +4,13 @@
     --left-sidebar-width: 280px;
     --right-sidebar-width: 240px;
     --header-height: auto;
+    --fs-h1: 1.6rem;
+    --fs-h2: 1.4rem;
+    --fs-h3: 1.2rem;
+    --fs-base: 1rem;
+    --fs-small: 0.9rem;
+    --fs-smaller: 0.8rem;
+    --fs-nano: 0.7rem;
 }
 
 *, ::before, ::after {
@@ -127,11 +134,11 @@ body {
 }
 
 .header-greetingExpression {
-    font-size: 0.8rem;
+    font-size: var(--fs-smaller);
 }
 
 .header-greetingUser {
-    font-size: 1.3rem;
+    font-size: var(--fs-h2);
 }
 
 .header-createContent {
@@ -168,7 +175,7 @@ body {
 }
 
 .sidebar-brand {
-    font-size: 1.5rem;
+    font-size: var(--fs-h1);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -190,7 +197,7 @@ body {
 
 .sidebar-navList a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: var(--fs-h3);
     color: inherit;
     display: flex;
     align-items: center;
@@ -224,6 +231,7 @@ body {
 }
 
 .projectGallery-title {
+    font-size: var(--fs-h3);
     font-weight: 700;
 }
 
@@ -272,7 +280,7 @@ body {
 }
 
 .projectCard-description {
-    font-size: 0.9rem;
+    font-size: var(--fs-small);
     color: #666;
 }
 
@@ -304,6 +312,7 @@ body {
 }
 
 .announcements-title {
+    font-size: var(--fs-h3);
     font-weight: 700;
 }
 
@@ -341,12 +350,12 @@ body {
 }
 
 .announcementCard-title {
-    font-size: 0.8rem;
+    font-size: var(--fs-smaller);
     font-weight: 700;
 }
 
 .announcementCard-description {
-    font-size: 0.7rem;
+    font-size: var(--fs-nano);
     color: #666;
 }
 
@@ -356,6 +365,7 @@ body {
 }
 
 .trending-title {
+    font-size: var(--fs-h3);
     font-weight: 700;
 }
 
@@ -396,7 +406,7 @@ body {
 
 .trendingCard-userHandle,
 .trendingCard-projectName {
-    font-size: 0.9rem;
+    font-size: var(--fs-small);
 }
 
 .trendingCard-projectName {
